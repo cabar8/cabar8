@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Site de Streaming</title>
+</head>
+<body>
+
+<header>
+    <h1>Meu Streaming</h1>
+    <nav>
+        <a href="#home">Início</a>
+        <a href="#filmes">Filmes</a>
+        <a href="#contato">Contato</a>
+    </nav>
+</header>
+
+<div class="banner">
+    <h2>Assista aos Melhores Filmes</h2>
+</div>
+
+<div class="container">
+    <div class="movie-grid">
+        <div class="movie-card">
+            <img src="filme1.jpg" alt="Filme 1">
+            <h3>Filme 1</h3>
+            <a href="https://www.youtube.com/watch?v=video1" class="button">Assistir Trailer</a>
+        </div>
+        <div class="movie-card">
+            <img src="filme2.jpg" alt="Filme 2">
+            <h3>Filme 2</h3>
+            <a href="https://www.youtube.com/watch?v=video2" class="button">Assistir Trailer</a>
+        </div>
+        <!-- Adicione mais cartões conforme necessário -->
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Meu Streaming. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
